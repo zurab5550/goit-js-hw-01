@@ -15,7 +15,7 @@ credits = credits - totalPrice;
 console.log (`Вы купили ${numberOfDroids} дроидов, на счету осталось ${credits} кредитов.`);  
 }
 
-else if(Number.isNaN=numberOfDroids){
+else if(Number.isNaN(Number(numberOfDroids))){
     alert("What are You typing???");
 
 }
