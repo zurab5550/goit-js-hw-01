@@ -15,7 +15,12 @@ credits = credits - totalPrice;
 console.log (`Вы купили ${numberOfDroids} дроидов, на счету осталось ${credits} кредитов.`);  
 }
 
-else if (totalPrice > credits){
+else if(Number.isNaN=numberOfDroids){
+    alert("What are You typing???");
+
+}
+
+else {
 
     console.log ("Недостаточно средств на счету!");
 }

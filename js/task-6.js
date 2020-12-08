@@ -11,7 +11,7 @@ while (true){
         console.log(total);
         alert (`Общая сумма чисел равна ${total}`);
         break;
-    }else if(Number.isNaN(number) === true){
+    }else if(Number.isNaN(number)){
         alert("Было введено не число, попробуйте еще раз");
     }
 }
